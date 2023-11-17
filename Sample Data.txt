@@ -1,0 +1,7 @@
+{"name": "Claude", "grades": {"Math": 87, "English": 43}}
+{"name": "Jerma", "grades": {"Math": 62, "English": 91}}
+{"name": "Jeanne", "grades": {"Chemistry": 65, "Biology": 70}}
+{"name": "Perun", "grades": {"Politics": 87, "Marketing": 70}}
+{"name": "Lira", "grades": {"Politics": 24, "Marketing": 40}}
+{"name": "Albert", "grades": {"Physics": 65, "Biology": 70, "Math": 50}}
+{"name": "Robert", "grades": {"Physics": 95, "Math": 60, "Chemistry": 90}}

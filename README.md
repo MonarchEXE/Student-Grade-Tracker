@@ -19,4 +19,6 @@ Prog             - User Interface of the project. This file is to be executed du
                    to run the main program.
 TblDisplay       - Handles displaying student grades and grade averages in tabular format.
 
-
+To use sample data:
+    1. Run Prog to create the saves/ directory (folder for Windows users).
+    2. Rename 'Sample Data' to 'students' and move it the saves/ directory.
