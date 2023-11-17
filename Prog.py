@@ -149,7 +149,5 @@ def MainMenu():
         case 0:
             return
 
-import os
-print(os.getcwd())
 StartMenu()
 MainMenu()
