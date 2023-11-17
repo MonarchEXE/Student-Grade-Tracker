@@ -55,7 +55,7 @@ def DisplayAvgs(students, title, function) -> None:
     print(xBar)
     gradeAvgs = function(students)
     for subject, grade in gradeAvgs.items():
-        GradeBar(subject, grade)
+        GradeBar(subject, int(grade))
     print(xBar)
 
 def DisplayGrades(students, _func):
@@ -70,5 +70,5 @@ def DisplayGrades(students, _func):
     print(titleBar)
     print(xBar)
     for subject, grade in student['grades'].items():
-        GradeBar(subject, grade)
+        GradeBar(subject, int(grade))
     print(xBar)

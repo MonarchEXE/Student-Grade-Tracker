@@ -34,7 +34,6 @@ def AlterStudentGrade(students) -> dict:
     return students
 def UpdateGrade(student, subject, grade) -> None: 
     student['grades'].update({subject : grade})
-    print('\nGrade updated\n')
     return student
 
 def GetStudent(students) -> dict:

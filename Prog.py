@@ -5,20 +5,7 @@ import FileSave as gtFile
 
 # list to locally hold all current students
 # listed with a nested dict that has nested dicts
-currentStudents = [
-    {'name': 'Claude',
-     'grades': {
-        'Maths': 7,
-        'English': 5    
-     }
-     },
-     {'name': 'Jerma',
-     'grades': {
-        'Maths': 6,
-        'English': 9    
-     }
-     }
-    ]
+currentStudents = []
 
 def CreateBarrier() -> None:
     # basic function that prints a barrier made of 100 dashes
@@ -91,6 +78,7 @@ def AccessGradesMenu():
     match choice:
         case 1:
             gtDict.AlterStudentGrade(currentStudents)
+            print('\nGrade updated.\n')
         case 2:
             gtDisplay.DisplayGrades(currentStudents, gtDict.GetStudent)
         case 0:
